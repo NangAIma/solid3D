@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My first Three.js app222</title>
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+		</style>
+	</head>
+	<body>
+		<script src=""></script>
+		<script>
+			/*var scene = new THREE.Scene();//创建场景
+			var camera = new THREE.PerspectiveCamera( 75, window.innerWidth/window.innerHeight, 0.1, 1000 );//创建相机
+
+			var renderer = new THREE.WebGLRenderer();//创建渲染画面
+			renderer.setSize( window.innerWidth, window.innerHeight );
+			document.body.appendChild( renderer.domElement );//添加<canvas>元素节点
+
+			var geometry = new THREE.BoxGeometry( 1, 1, 1 );//创建盒子模型
+			var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
+			var cube = new THREE.Mesh( geometry, material );//使用材料对盒子着色
+			scene.add( cube );
+
+			camera.position.z = 3;//移动相机位置
+			
+			var m_render = function () {//渲染循环
+				requestAnimationFrame( m_render );
+
+				cube.rotation.z += 0.1;
+				//cube.rotation.y += 0.1;
+
+				renderer.render(scene, camera);
+			};
+
+			m_render();*/
+			var arr = new Array(6)
+			arr[0] = "George"
+			arr[1] = "John"
+			arr[2] = "Thomas"
+			arr[3] = "James"
+			arr[4] = "Adrew"
+			arr[5] = "Martin"
+
+			document.write(arr + "<hr>")
+			arr.splice(2,1)
+			document.write(arr + "<br>")
+		</script>
+	</body>
+</html>
